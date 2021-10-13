@@ -1,0 +1,119 @@
+﻿<repository
+id="d9758e74-10e9-47df-8d2a-56a514c59fa8"
+name="MyTest26Repository">
+	<codegen
+	classname="MyTest26Repository"
+	namespace="MyTest26">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6a70261e-0384-40b2-aed9-27af18a69284"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="8d5c711d-cf57-48eb-a20b-910b363dc7e9"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@controlname='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="22142911-e784-4d45-8b79-bdccdf613ad9"
+			isrooted="True"
+			name="RxTabStandard"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="9cad9dcb-55da-4a0a-9849-5f36d35b3e7c"
+				name="FirstName"
+				refimgid="2b5fee46-62c3-4d2d-8601-2b1284b59eaa"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']/text[@accessiblename='First name']"
+				robustPath=""
+				searchtimeout="1000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='First name']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="f574bc17-c29c-4c99-a83a-e6794b9a90f2"
+				name="LastName"
+				refimgid="b5453714-65d9-462a-9924-87ab5118436b"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']/text[@accessiblename='Last name']"
+				robustPath=""
+				searchtimeout="1000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='Last name']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="4e9e1080-b003-4fb6-a74e-3ca6bc17d236"
+				name="Age"
+				refimgid="bc181507-e3fa-4340-8326-1030ba398c24"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/text[@controlname='upDownEdit']"
+				robustPath=""
+				searchtimeout="1000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlname='upDownEdit']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="516f9254-2983-4c02-95e0-ccb70e50c1cd"
+				name="Open"
+				refimgid="068dc143-f4e7-49c8-ae83-e310d90290ad"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/combobox[@controlname='cmbDepartment']/button[@accessiblename='Open']"
+				robustPath=""
+				searchtimeout="1000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/button[@accessiblename='Open']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="02b7ff0a-cecc-4f04-a2c3-d0cb8cec8105"
+				name="Text1001"
+				refimgid="210e612e-ea6a-4720-9816-05c8eb41740e"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/combobox[@controlname='cmbDepartment']/text[@controlid='1001']"
+				robustPath=""
+				searchtimeout="1000ms">
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlid='1001']
+				</item>
+				<basepath>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@controlname='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<item
+		addcaps="button,control,nativewindow"
+		capname="button"
+		id="d8dfe989-4e1b-4d6e-bc97-5a853f59d7bc"
+		name="BtnAddPerson"
+		refimgid="b3fb181d-433b-4ec9-85f5-29e898d39491"
+		refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
+		robustPath=""
+		searchtimeout="1000ms">
+			/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']
+		</item>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
